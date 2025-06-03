@@ -13,11 +13,11 @@ public class Calculate {
     private double subtotal;
 
     public double getTax() {
-        return tax;
+        return calTax(subtotal);
     }
-
-    public void setTax(double tax) {
-        this.tax = tax;
+    
+    public double getTotal(){
+        return subtotal + getTax();
     }
 
     public double getSubtotal() {
