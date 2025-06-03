@@ -16,9 +16,7 @@ import javax.swing.table.DefaultTableModel;
  */
 public class CartView extends javax.swing.JFrame {
 
-    /**
-     * Creates new form CartView
-     */
+    
     int xx, xy, rowIndex;
     Dao dao = new Dao();
     DefaultTableModel model;
